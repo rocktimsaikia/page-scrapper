@@ -13,6 +13,15 @@
     "test:ex": "node example/index.js",
     "prepublishOnly": "npm run test"
   },
+  "keywords": [
+    "page-scrapper", 
+    "node-scrapper", 
+    "site-scrapper", 
+    "link-scrapper", 
+    "website-scrapper",
+    "web-scapper",
+    "scrapper"
+  ],
   "repository": "rocktimsaikia/site-scrapper",
   "homepage": "https://github.com/rocktimsaikia/site-scrapper",
   "bugs": {
