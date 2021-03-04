@@ -53,6 +53,9 @@ There are the currently available options
 ## Contribute
 For any new feature request or bug report, please open an [issue] or [pull request] in GitHub.
 
+## Related
+- [meta-fecther](https://github.com/RocktimSaikia/meta-fetcher) - Tiny URL meta-data fetcher(scrapper) for Node.js
+
 ## License
 MIT 2021 &copy; [Rocktim Saikia](https://rocktimsaikia.now.sh)
 
