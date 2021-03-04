@@ -1,5 +1,5 @@
-# :package: page-scrapper
-> A simple node.js scrapper that pulls out all links and images of a given site.
+# page-scrapper [![Actions Status](https://github.com/rocktimsaikia/page-scrapper/workflows/build/badge.svg)](https://github.com/rocktimsaikia/page-scrapper/actions)
+> A simple node.js scrapper that pulls out all links and images of a given site. :package:
 
 ## Installation
 ```sh
