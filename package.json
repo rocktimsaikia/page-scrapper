@@ -10,7 +10,8 @@
   },
   "scripts": {
     "test": "jest .",
-    "test:ex": "node example/index.js"
+    "test:ex": "node example/index.js",
+    "prepublishOnly": "npm run test"
   },
   "repository": "rocktimsaikia/site-scrapper",
   "homepage": "https://github.com/rocktimsaikia/site-scrapper",
