@@ -1,7 +1,7 @@
 {
   "name": "page-scrapper",
   "description": "A simple node.js scrapper that pulls out all links and images of a given site.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "Rocktim Saikia",
@@ -14,10 +14,10 @@
     "prepublishOnly": "npm run test"
   },
   "keywords": [
-    "page-scrapper", 
-    "node-scrapper", 
-    "site-scrapper", 
-    "link-scrapper", 
+    "page-scrapper",
+    "node-scrapper",
+    "site-scrapper",
+    "link-scrapper",
     "website-scrapper",
     "web-scapper",
     "scrapper"
@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",
-    "jest": "^26.6.3"
+    "jest": "^26.6.3",
+    "page-scrapper": "^1.0.1"
   }
 }
