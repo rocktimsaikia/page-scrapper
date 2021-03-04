@@ -1,4 +1,4 @@
-# :packge: page-scrapper
+# :package: page-scrapper
 > A simple node.js scrapper that pulls out all links and images of a given site.
 
 ## Installation
