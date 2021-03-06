@@ -1,0 +1,16 @@
+{
+    "env": {
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2021,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "unicorn"
+    ],
+    "extends": "plugin:unicorn/recommended",
+    "rules": {
+        "unicorn/no-array-callback-reference": "off"
+    }
+}

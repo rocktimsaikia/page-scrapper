@@ -1,3 +1,4 @@
+/* eslint-disable unicorn/prevent-abbreviations */
 const pageScrapper = require('../lib');
 const isAbsolute = require('is-absolute-url');
 
@@ -7,11 +8,11 @@ describe('Main', () => {
         expect(typeof res === 'object').toBe(true);
         expect(res).toHaveProperty('links');
         expect(res).toHaveProperty('images');
-        res['links'].forEach(link => {
+        for (const link of res['links']) {
             expect(isAbsolute(link)).toBeTruthy();
-        });
-        res['images'].forEach(link => {
+        }
+        for (const link of res['images']) {
             expect(isAbsolute(link)).toBeTruthy();
-        })
+        }
     });
 });
