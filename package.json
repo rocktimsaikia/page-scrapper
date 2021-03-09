@@ -1,19 +1,7 @@
 {
   "name": "page-scrapper",
-  "description": "A simple node.js scrapper that pulls out all links and images of a given site.",
   "version": "1.0.1",
-  "license": "MIT",
-  "author": {
-    "name": "Rocktim Saikia",
-    "email": "rocktimthedev@gmail.com",
-    "url": "https://rocktimsaikia.now.sh"
-  },
-  "scripts": {
-    "lint": "eslint .",
-    "test": "jest .",
-    "test:ex": "node example/index.js",
-    "prepublishOnly": "npm run test"
-  },
+  "description": "A simple node.js scrapper that pulls out all links and images of a given site.",
   "keywords": [
     "page-scrapper",
     "node-scrapper",
@@ -23,24 +11,33 @@
     "web-scapper",
     "scrapper"
   ],
-  "repository": "rocktimsaikia/site-scrapper",
   "homepage": "https://github.com/rocktimsaikia/site-scrapper",
   "bugs": {
     "url": "https://github.com/rocktimsaikia/site-scrapper/issues"
+  },
+  "repository": "rocktimsaikia/site-scrapper",
+  "license": "MIT",
+  "author": {
+    "name": "Rocktim Saikia",
+    "email": "rocktimthedev@gmail.com",
+    "url": "https://rocktimsaikia.now.sh"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest .",
+    "test:ex": "node example/index.js",
+    "prepublishOnly": "npm run test"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.5",
     "is-absolute-url": "^3.0.3",
     "is-url-superb": "^5.0.0",
     "node-fetch": "^2.6.1"
-  },
-  "engines": {
-    "node": ">=10"
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",
@@ -49,5 +46,8 @@
     "jest": "^26.6.3",
     "page-scrapper": "^1.0.1",
     "size-limit": "^4.10.1"
+  },
+  "engines": {
+    "node": ">=10"
   }
 }
