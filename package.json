@@ -47,6 +47,7 @@
     "eslint": "^7.21.0",
     "eslint-plugin-unicorn": "^28.0.2",
     "jest": "^26.6.3",
-    "page-scrapper": "^1.0.1"
+    "page-scrapper": "^1.0.1",
+    "size-limit": "^4.10.1"
   }
 }
