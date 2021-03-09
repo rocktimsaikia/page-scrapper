@@ -51,7 +51,7 @@ There are the currently available options
 | `absoluteOnly` | No   		| `true`        | Only scraps the absolute links. When set it to `false` it will fetch the relative paths too.|
 
 ## Contribute
-For any new feature request or bug report, please open an [issue] or [pull request] in GitHub.
+For any new feature request or bug report, please open an [issue] or [pull request].
 
 ## Related
 - [meta-fecther](https://github.com/RocktimSaikia/meta-fetcher) - Tiny URL meta-data fetcher(scrapper) for Node.js
