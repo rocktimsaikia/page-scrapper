@@ -29,7 +29,7 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "test": "jest .",
+    "test": "node --test",
     "test:ex": "node example/index.js",
     "prepublishOnly": "npm run test"
   },
@@ -40,10 +40,8 @@
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.20",
     "eslint": "^7.21.0",
     "eslint-plugin-unicorn": "^28.0.2",
-    "jest": "^26.6.3",
     "page-scrapper": "^1.0.1",
     "size-limit": "^4.10.1"
   },
