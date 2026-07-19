@@ -1,7 +1,7 @@
 {
   "name": "page-scrapper",
   "version": "2.0.0",
-  "description": "A simple node.js scraper that pulls out all links and images of a given site.",
+  "description": "Scrape all links and images from a web page",
   "keywords": [
     "page-scrapper",
     "scraper",
