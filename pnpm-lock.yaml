@@ -9,17 +9,8 @@ importers:
   .:
     dependencies:
       cheerio:
-        specifier: ^1.0.0-rc.5
+        specifier: ^1.0.0
         version: 1.2.0
-      is-absolute-url:
-        specifier: ^3.0.3
-        version: 3.0.3
-      is-url-superb:
-        specifier: ^5.0.0
-        version: 5.0.0
-      node-fetch:
-        specifier: ^2.6.1
-        version: 2.7.0
     devDependencies:
       eslint:
         specifier: ^7.21.0

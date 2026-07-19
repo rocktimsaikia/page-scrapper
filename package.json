@@ -34,10 +34,7 @@
     "prepublishOnly": "npm run test"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.5",
-    "is-absolute-url": "^3.0.3",
-    "is-url-superb": "^5.0.0",
-    "node-fetch": "^2.6.1"
+    "cheerio": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^7.21.0",
@@ -46,6 +43,6 @@
     "size-limit": "^4.10.1"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=20"
   }
 }
