@@ -1,6 +1,6 @@
 {
   "name": "page-scrapper",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Scrape all links and images from a web page",
   "keywords": [
     "page-scrapper",
