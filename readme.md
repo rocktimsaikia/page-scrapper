@@ -49,14 +49,8 @@ There are the currently available options
 | :------------- | :----------: | :-----------: | -----------|
 | `absoluteOnly` | No   		| `true`        | Only scraps the absolute links. When set it to `false` it will fetch the relative paths too.|
 
-## Contribute
-For any new feature request or bug report, please open an [issue] or [pull request].
-
 ## Related
 - [meta-fetcher](https://github.com/rocktimsaikia/meta-fetcher) - Simple metadata scraper for Node.js
 
 ## License
 MIT 2021-2026 &copy; [Rocktim Saikia](https://rocktim.dev)
-
-[issue]: https://github.com/rocktimsaikia/page-scrapper/issues
-[pull request]: https://github.com/rocktimsaikia/page-scrapper/pulls
