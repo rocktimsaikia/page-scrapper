@@ -7,7 +7,7 @@ Scrape all links and images from a web page.
 
 ## Installation
 
-Requires Node.js 20 or later.
+Requires Node.js 20 or later. Ships with TypeScript types.
 
 ```sh
 npm install page-scrapper
@@ -45,9 +45,15 @@ Output:
 
 ## Options
 
+Pass an options object as the second argument:
+
+```js
+const result = await pageScrapper(url, { absoluteOnly: false });
+```
+
 | Option         | Required | Default | Description |
 | :------------- | :------: | :-----: | ----------- |
-| `absoluteOnly` | No       | `true`  | Only scrape the absolute links. When set to `false` it will fetch the relative paths too. |
+| `absoluteOnly` | No       | `true`  | Only scrape the absolute links. When set to `false` it will include the relative paths too. |
 
 ## Related
 
