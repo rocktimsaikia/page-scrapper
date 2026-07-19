@@ -38,9 +38,7 @@
   },
   "devDependencies": {
     "eslint": "^7.21.0",
-    "eslint-plugin-unicorn": "^28.0.2",
-    "page-scrapper": "^1.0.1",
-    "size-limit": "^4.10.1"
+    "eslint-plugin-unicorn": "^28.0.2"
   },
   "engines": {
     "node": ">=20"

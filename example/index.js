@@ -1,7 +1,6 @@
-/* eslint-disable no-undef */
-const pageScrapper = require('page-scrapper');
+const pageScrapper = require('../lib');
 
-(async() => {
+(async () => {
     const data = await pageScrapper('https://jsonplaceholder.typicode.com/');
 
     console.log(data);
