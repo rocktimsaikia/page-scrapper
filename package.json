@@ -1,26 +1,26 @@
 {
   "name": "page-scrapper",
   "version": "1.0.1",
-  "description": "A simple node.js scrapper that pulls out all links and images of a given site.",
+  "description": "A simple node.js scraper that pulls out all links and images of a given site.",
   "keywords": [
     "page-scrapper",
-    "node-scrapper",
-    "site-scrapper",
-    "link-scrapper",
-    "website-scrapper",
-    "web-scapper",
-    "scrapper"
+    "scraper",
+    "page-scraper",
+    "site-scraper",
+    "link-scraper",
+    "website-scraper",
+    "web-scraper"
   ],
-  "homepage": "https://github.com/rocktimsaikia/site-scrapper",
+  "homepage": "https://github.com/rocktimsaikia/page-scrapper",
   "bugs": {
-    "url": "https://github.com/rocktimsaikia/site-scrapper/issues"
+    "url": "https://github.com/rocktimsaikia/page-scrapper/issues"
   },
-  "repository": "rocktimsaikia/site-scrapper",
+  "repository": "rocktimsaikia/page-scrapper",
   "license": "MIT",
   "author": {
     "name": "Rocktim Saikia",
-    "email": "rocktimthedev@gmail.com",
-    "url": "https://rocktimsaikia.now.sh"
+    "email": "hey@rocktim.dev",
+    "url": "https://rocktim.dev"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
