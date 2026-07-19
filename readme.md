@@ -2,6 +2,8 @@
 > A simple node.js scraper that pulls out all links and images of a given site. :package:
 
 ## Installation
+Requires Node.js 20 or later.
+
 ```sh
 npm install page-scrapper
 ```
@@ -10,7 +12,7 @@ npm install page-scrapper
 - Super easy to use
 - Removes duplicate links/images by default
 - Filters out the relative paths (configurable)
-- Tests cases added
+- Zero config, single dependency
 
 ## Basic Usage 
 ```js
@@ -23,20 +25,17 @@ const pageScrapper = require('page-scrapper');
     /* =>
     {
         links: [
-            'https://dev.to/typicode/what-s-new-in-husky-5-32g5',
+            'https://github.com/typicode/mistcss',
             'https://github.com/sponsors/typicode',
             'https://blog.typicode.com',
             'https://my-json-server.typicode.com',
             'https://github.com/typicode/json-server',
             'https://github.com/typicode/lowdb',
-            'https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode',
-            'https://mockend.com',
             'https://github.com/users/typicode/sponsorship',
             'https://github.com/typicode'
         ],
         images: [
-            'https://i.imgur.com/IBItATn.png',
-            'https://mockend.com/banner.svg'
+            'https://github.com/user-attachments/assets/adfee31f-a8b6-4684-9a9b-af4f03ac5b75'
         ]
     }
     */
