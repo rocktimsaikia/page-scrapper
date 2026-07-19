@@ -53,7 +53,7 @@ There are the currently available options
 For any new feature request or bug report, please open an [issue] or [pull request].
 
 ## Related
-- [meta-fetcher](https://github.com/rocktimsaikia/meta-fetcher) - Tiny URL meta-data fetcher (scraper) for Node.js
+- [meta-fetcher](https://github.com/rocktimsaikia/meta-fetcher) - Simple metadata scraper for Node.js
 
 ## License
 MIT 2021-2026 &copy; [Rocktim Saikia](https://rocktim.dev)
