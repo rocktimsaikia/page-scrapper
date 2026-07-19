@@ -1,5 +1,5 @@
 # page-scrapper [![Actions Status](https://github.com/rocktimsaikia/page-scrapper/workflows/build/badge.svg)](https://github.com/rocktimsaikia/page-scrapper/actions)
-> A simple node.js scrapper that pulls out all links and images of a given site. :package:
+> A simple node.js scraper that pulls out all links and images of a given site. :package:
 
 ## Installation
 ```sh
@@ -54,10 +54,10 @@ There are the currently available options
 For any new feature request or bug report, please open an [issue] or [pull request].
 
 ## Related
-- [meta-fecther](https://github.com/RocktimSaikia/meta-fetcher) - Tiny URL meta-data fetcher(scrapper) for Node.js
+- [meta-fetcher](https://github.com/rocktimsaikia/meta-fetcher) - Tiny URL meta-data fetcher (scraper) for Node.js
 
 ## License
-MIT 2021 &copy; [Rocktim Saikia](https://rocktimsaikia.now.sh)
+MIT 2021-2026 &copy; [Rocktim Saikia](https://rocktim.dev)
 
 [issue]: https://github.com/rocktimsaikia/page-scrapper/issues
 [pull request]: https://github.com/rocktimsaikia/page-scrapper/pulls
